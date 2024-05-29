@@ -1,9 +1,10 @@
 @import "./global/global.css";
 @import "./utils/typography.css";
 @import "./utils/colors.css";
+@import "./utils/components.css";
 
 @import "./global/header-menu.css";
 
-@import "./utils/components.css";
-
 @import "./home/introducao.css";
+
+@import "./bikes/bikes-list.css";

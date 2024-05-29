@@ -4,14 +4,11 @@
 
 .header {
   display: flex;
-  gap: 1.5rem;
   flex-wrap: wrap;
+  gap: 1.5rem;
   justify-content: space-between;
   align-items: center;
-  box-sizing: border-box;
   padding: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 .header-menu {
@@ -36,11 +33,11 @@
   background: var(--cor-0);
   margin-top: 4px;
   position: absolute;
+  transition: 0.5s;
 }
 
 .header-menu a:hover:after {
   width: 100%;
-  transition: 0.5s;
 }
 
 @media (width <= 800px) {
