@@ -14,8 +14,9 @@
 @import "./home/introducao.css";
 @import "./home/tecnologia.css";
 
-/* Lista de Bikes */
+/* Lista de Bikes e Página de Bikes*/
 @import "./bikes/bikes-list.css";
+@import "./bikes/bikes.css";
 
 /* Parceiros */
 @import "./home/parceiros.css";
