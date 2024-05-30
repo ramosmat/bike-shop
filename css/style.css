@@ -1,11 +1,18 @@
+/* Globais e componentes */
 @import "./global/global.css";
 @import "./utils/typography.css";
 @import "./utils/colors.css";
 @import "./utils/components.css";
 
+/* Header e Menu */
 @import "./global/header-menu.css";
 
+/* Introdução e conteúdos */
 @import "./home/introducao.css";
 @import "./home/tecnologia.css";
 
+/* Lista de Bikes */
 @import "./bikes/bikes-list.css";
+
+/* Parceiros */
+@import "./home/parceiros.css";
