@@ -7,6 +7,9 @@
 /* Header e Menu */
 @import "./global/header-menu.css";
 
+/* Footer */
+@import "./global/footer.css";
+
 /* Introdução e conteúdos */
 @import "./home/introducao.css";
 @import "./home/tecnologia.css";
