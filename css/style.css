@@ -19,3 +19,6 @@
 
 /* Depoimentos */
 @import "./home/depoimentos.css";
+
+/* Seguros */
+@import "./seguros/seguros.css";
