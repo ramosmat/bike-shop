@@ -20,6 +20,7 @@
 
 /* Página de cada bicicleta */
 @import "./bike-page/bike-nimbus.css";
+@import "./bike-page/seguro.css";
 
 /* Parceiros */
 @import "./home/parceiros.css";
