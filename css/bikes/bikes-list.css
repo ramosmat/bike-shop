@@ -15,6 +15,14 @@
   overflow: auto hidden;
 }
 
+#bicicleta .bicicletas-lista ul {
+  padding: 0 0 20px 0;
+}
+
+#bicicleta .bicicletas-lista.container {
+  padding: 60px 20px 120px 20px;
+}
+
 .bicicletas-lista li {
   min-width: 280px;
   flex: 1;
