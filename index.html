@@ -7,6 +7,8 @@
       name="description"
       content="Bicicletas elétricas de alta precisão e qualidade,  feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft."
     />
+
+    <link rel="preload" href="../css/style.css" as="style" />
     <link rel="stylesheet" href="../css/style.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -21,7 +23,12 @@
     <header class="header-bg">
       <div class="header container">
         <a href="../">
-          <img src="../img/bikcraft.svg" alt="Bikcraft" />
+          <img
+            src="../img/bikcraft.svg"
+            width="136"
+            height="32"
+            alt="Bikcraft"
+          />
         </a>
 
         <nav aria-label="primaria">
@@ -55,12 +62,18 @@
           <a class="botao" href="../bikes.html">Escolha a sua</a>
         </div>
 
-        <div>
+        <picture>
+          <source
+            media="(max-width: 800px)"
+            srcset="./img/bicicletas/nimbus.jpg"
+          />
           <img
             src="../img/fotos/introducao.jpg"
             alt="Bicicleta elétrica preta."
+            width="1280"
+            height="1600"
           />
-        </div>
+        </picture>
       </div>
     </main>
 
@@ -119,7 +132,7 @@
             completamente as suas cores.
           </p>
 
-          <a class="link" href="../bicicletas.html">ESCOLHA UM MODELO</a>
+          <a class="link" href="../bikes.html">ESCOLHA UM MODELO</a>
 
           <div class="tecnologia-vantagens">
             <div>
