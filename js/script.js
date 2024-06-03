@@ -22,3 +22,25 @@ parametros.forEach((parametro) => {
     elemento.checked = true;
   }
 });
+
+//Perguntas Frequentes
+const perguntas = document.querySelectorAll(".perguntas button");
+const respostasAll = document.querySelectorAll(".perguntas dl dd");
+
+function ativarResposta(event) {
+  const pergunta = event.currentTarget;
+  const ariaControl = pergunta.getAttribute("aria-controls");
+
+  const resposta = document.getElementById(ariaControl);
+
+  resposta.classList.toggle("ativo");
+
+  const ativa = resposta.classList.contains("ativo");
+  pergunta.setAttribute("aria-expanded", ativa);
+}
+
+function eventosPerguntas(pergunta) {
+  pergunta.addEventListener("click", ativarResposta);
+}
+
+perguntas.forEach(eventosPerguntas);
