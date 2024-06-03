@@ -1,3 +1,4 @@
+//Ativar links do menu
 const links = document.querySelectorAll(".header-menu a");
 
 function igualaLink(link) {
@@ -10,3 +11,14 @@ function igualaLink(link) {
 }
 
 links.forEach(igualaLink);
+
+//Ativar itens do orçamneto
+const parametros = new URLSearchParams(window.location.search);
+
+parametros.forEach((parametro) => {
+  const elemento = document.getElementById(parametro);
+
+  if (elemento) {
+    elemento.checked = true;
+  }
+});
