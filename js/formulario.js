@@ -1,4 +1,4 @@
-const formulario = document.querySelector("form");
+const formulario = document.querySelector('form');
 
 function formularioEnviado(resposta) {
   if (resposta.ok) {
@@ -12,17 +12,17 @@ function formularioEnviado(resposta) {
 
 function enviarFormulario(event) {
   event.preventDefault();
-  const botao = document.querySelector("form button");
+  const botao = document.querySelector('form button');
 
   botao.disabled = true;
-  botao.innerText = "Enviando ...";
+  botao.innerText = 'Enviando ...';
 
   const data = new FormData(formulario);
 
-  fetch("./enviar.php", {
-    method: "POST",
+  fetch('../enviar.php', {
+    method: 'POST',
     body: data,
   }).then(formularioEnviado);
 }
 
-formulario.addEventListener("submit", enviarFormulario);
+formulario.addEventListener('submit', enviarFormulario);
